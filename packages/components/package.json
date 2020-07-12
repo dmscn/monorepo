@@ -1,0 +1,20 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Leo Damasceno <ldamasceno.dev@gmail.com>",
+  "homepage": "",
+  "main": "lib/index.js",
+  "description": "React components system",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "source": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
+}
