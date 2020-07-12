@@ -1,7 +1,7 @@
 'use strict';
+const Button = require('./Button')
 
-module.exports = components;
+module.exports = {
+    Button,
+};
 
-function components() {
-    return "shh... this is a secret message"
-}
