@@ -14,7 +14,7 @@
     "module": "commonjs",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "outDir": "./lib",
+    "outDir": "./build/bundle",
     "strict": true,
     "jsx": "react"
   },
