@@ -1,9 +1,15 @@
 {
-  "name": "root",
+  "name": "@dmscn/monorepo",
   "private": true,
+  "version": "0.0.1",
+  "author": "Leonardo Damasceno",
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "bump": "lerna publish --force-publish"
+  },
   "husky": {
     "hooks": {
       "prepare-commit-msg": "devmoji -e"
