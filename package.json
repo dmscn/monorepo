@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "bump": "lerna publish --force-publish"
+    "bump": "lerna publish --force-publish=*"
   },
   "husky": {
     "hooks": {

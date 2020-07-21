@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "components": "^1.0.2-alpha.0",
+    "@dmscn/components": "^1.0.2-alpha.0",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
