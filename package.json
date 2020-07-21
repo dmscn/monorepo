@@ -8,7 +8,10 @@
     "packages/*"
   ],
   "scripts": {
-    "bump": "lerna publish --force-publish=*"
+    "bump": "lerna version",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "deps": "lerna run install",
+    "setup": "yarn bootstrap && yarn deps"
   },
   "husky": {
     "hooks": {
