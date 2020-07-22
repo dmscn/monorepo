@@ -5,13 +5,18 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent",
+  "ignoreChanges": [
+    "**/__tests__/**",
+    "**/*.test.*",
+    "**/*.stories.*",
+    "**/*.md"
+  ],
   "command": {
     "version": {
       "conventionalCommits": true,
       "createRelease": "github",
-      "message": "🔖 chore: release package(s)",
-      "signGitTag": false,
-      "signGitCommit": false,
+      "gitRemote": "upstream",
+      "message": "🔖 chore(release): %s",
       "allowBranch": [
         "master"
       ]
