@@ -15,7 +15,7 @@
     "version": {
       "conventionalCommits": true,
       "createRelease": "github",
-      "message": "🔖 chore(release): %s",
+      "message": "🔖 chore(release): New release",
       "allowBranch": [
         "master"
       ]
