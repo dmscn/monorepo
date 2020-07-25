@@ -14,11 +14,6 @@
     "setup": "yarn bootstrap && yarn deps",
     "changelog": "gitmoji-changelog"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn changelog"
-    }
-  },
   "devDependencies": {
     "@types/node": "^14.0.22",
     "@types/react": "^16.9.43",
