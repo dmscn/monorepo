@@ -13,7 +13,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1",
     "build": "rollup --config",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "changelog": "gitmoji-changelog"
   },
   "source": "lib/index.js",
   "directories": {

@@ -12,7 +12,7 @@
     "bootstrap": "lerna bootstrap --use-workspaces",
     "deps": "lerna run install",
     "setup": "yarn bootstrap && yarn deps",
-    "changelog": "gitmoji-changelog"
+    "changelog": "lerna run changelog"
   },
   "husky": {
     "hooks": {

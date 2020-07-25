@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "changelog": "gitmoji-changelog"
   },
   "dependencies": {
     "@dmscn/components": "^1.0.5",
