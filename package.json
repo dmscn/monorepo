@@ -11,16 +11,13 @@
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "deps": "lerna run install",
-    "setup": "yarn bootstrap && yarn deps"
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "devmoji -e"
-    }
+    "setup": "yarn bootstrap && yarn deps",
+    "changelog": "gitmoji-changelog"
   },
   "devDependencies": {
     "@types/node": "^14.0.22",
     "@types/react": "^16.9.43",
+    "gitmoji-changelog": "^2.1.0",
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
     "typescript": "^3.9.6"
