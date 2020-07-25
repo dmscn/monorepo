@@ -15,7 +15,6 @@
     "version": {
       "conventionalCommits": true,
       "createRelease": "github",
-      "gitRemote": "upstream",
       "message": "🔖 chore(release): %s",
       "allowBranch": [
         "master"
