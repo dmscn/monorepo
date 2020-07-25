@@ -1,6 +1,6 @@
 {
   "name": "@dmscn/app",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "changelog": "gitmoji-changelog"
   },
   "dependencies": {
-    "@dmscn/components": "^1.0.5",
+    "@dmscn/components": "^1.0.6",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
