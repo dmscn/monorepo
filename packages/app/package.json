@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "changelog": "gitmoji-changelog"
+    "changelog": "gitmoji-changelog",
+    "lint": "eslint --cache --fix",
+    "format": "pretty-quick --staged"
   },
   "dependencies": {
     "@dmscn/components": "^1.0.6",
