@@ -10,12 +10,15 @@
   "scripts": {
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap --use-workspaces",
+    "lint": "lerna run lint",
+    "format": "lerna run format",
     "deps": "lerna run install",
     "setup": "yarn bootstrap && yarn deps",
     "changelog": "lerna run changelog"
   },
   "husky": {
     "hooks": {
+      "pre-commit": "yarn format && yarn lint",
       "pre-push": "yarn changelog"
     }
   },
