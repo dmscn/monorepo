@@ -24,3 +24,8 @@ jobs:
       run: yarn bump --yes
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: release
+      run: yarn release
+      env: 
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
