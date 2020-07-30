@@ -14,7 +14,8 @@
     "format": "lerna run format",
     "deps": "lerna run install",
     "setup": "yarn bootstrap && yarn deps",
-    "changelog": "lerna run changelog"
+    "changelog": "lerna run changelog",
+    "release": "semantic-release"
   },
   "husky": {
     "hooks": {
@@ -35,6 +36,8 @@
     "lerna": "^3.22.1",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
+    "semantic-release": "^17.1.1",
+    "semantic-release-gitmoji": "^1.3.4",
     "typescript": "^3.9.6"
   },
   "dependencies": {
