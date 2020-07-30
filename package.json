@@ -15,7 +15,7 @@
     "deps": "lerna run install",
     "setup": "yarn bootstrap && yarn deps",
     "changelog": "lerna run changelog",
-    "release": "semantic-release"
+    "release": "lerna run release"
   },
   "husky": {
     "hooks": {

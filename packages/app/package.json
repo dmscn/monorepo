@@ -8,7 +8,8 @@
     "start": "next start",
     "changelog": "gitmoji-changelog",
     "lint": "eslint --cache --fix",
-    "format": "pretty-quick --staged"
+    "format": "pretty-quick --staged",
+    "release": "semantic-release"
   },
   "dependencies": {
     "@dmscn/components": "^1.0.8",

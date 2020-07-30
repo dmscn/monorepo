@@ -14,7 +14,8 @@
     "build": "rollup --config",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "changelog": "gitmoji-changelog"
+    "changelog": "gitmoji-changelog",
+    "release": "semantic-release"
   },
   "source": "lib/index.js",
   "directories": {
