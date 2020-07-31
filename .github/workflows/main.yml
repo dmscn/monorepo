@@ -23,7 +23,7 @@ jobs:
         git config --global user.name GitHub Actions
 
     - name: bump
-      run: yarn bump --yes from-git --force-git-tag
+      run: yarn bump --yes --force-git-tag
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
