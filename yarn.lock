@@ -2464,6 +2464,13 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
+"@smartive/semantic-release-lerna@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@smartive/semantic-release-lerna/-/semantic-release-lerna-1.0.0.tgz#2e05a47b405fa89696fbd073f7e90c2b144b39e2"
+  integrity sha512-B1N9B6Foo74vIW2YS2ZpCAlj+lZf6Ki6Ouaok7Md/IO/y+yk3LXPPd327LdJaeMZFMLaWYyLzsxec0QceFC4MQ==
+  dependencies:
+    execa "^1.0.0"
+
 "@storybook/addon-actions@^5.3.19":
   version "5.3.19"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-5.3.19.tgz#50548fa6e84bc79ad95233ce23ade4878fc7cfac"

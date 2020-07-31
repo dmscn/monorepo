@@ -24,6 +24,7 @@
     }
   },
   "devDependencies": {
+    "@smartive/semantic-release-lerna": "^1.0.0",
     "@types/node": "^14.0.22",
     "@types/react": "^16.9.43",
     "@typescript-eslint/eslint-plugin": "^3.7.0",
